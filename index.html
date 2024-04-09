@@ -6,11 +6,16 @@
   <title>Ulson FRP Character Sheet</title>
   <link rel="stylesheet" type="text/css" href="css/base.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
 </head>
 <body>
   <div class="chart-container">
     <!-- CHARACTER POLAR CHART -->
-    <div class="score"><span id="score-result"></span></div>
+    <div class="score">
+		<span id="score-text"></span>
+		<br>
+		<span id="score-result"></span>
+</div>
     <canvas id="polar-area-chart"></canvas>
 
     <!-- 3D DICE -->
