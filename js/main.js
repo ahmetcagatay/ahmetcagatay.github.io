@@ -527,7 +527,7 @@ function createHorizontalWalls() {
         const wallMaterial = new THREE.MeshStandardMaterial({
             color: 0x00ff00, // Duvarların rengi, örneğin yeşil
             transparent: true,
-            opacity: 0.5 // Duvarların yarı şeffaf olması için
+            opacity: 0 // Duvarların yarı şeffaf olması için
         });
         
         const wallMesh = new THREE.Mesh(wallGeometry, wallMaterial);
