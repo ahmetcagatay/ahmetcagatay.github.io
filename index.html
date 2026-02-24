@@ -3,43 +3,250 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ulson FRP Character Sheet</title>
-  <link rel="stylesheet" type="text/css" href="css/base.css">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+  <title>Ahmet Cagatay — Operations & Automation</title>
+  <meta name="description" content="Operations-minded builder. 5+ years in B2C SaaS. Marketing automation, process improvement, AI-powered development.">
+  <meta name="author" content="Ahmet Cagatay">
+  <meta property="og:title" content="Ahmet Cagatay — Operations & Automation">
+  <meta property="og:description" content="I find how teams work, then make it faster.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="chart-container">
-    <!-- CHARACTER POLAR CHART -->
-    <div class="score">
-		<span id="score-text"></span>
-		<br>
-		<span id="score-result"></span>
-</div>
-    <canvas id="polar-area-chart"></canvas>
 
-    <!-- 3D DICE -->
-    <main>
-			<div class="content">
-				<canvas id="canvas"></canvas>
-			</div>
-		</main>
-		<script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
-		<script type="importmap">
-		  {
-			"imports": {
-			  "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
-			  "three/addons/": "https://unpkg.com/three@0.138.0/examples/jsm/"
-			}
-		  }
-		</script>
-		<script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
-		<script type="module" src="./js/main.js"></script>
-  </div>
-  
-  <!-- <script type="text/javascript" src="scripts.js"></script> -->
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand">Ahmet Cagatay</a>
+      <button class="nav-hamburger" aria-label="Menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/cv-ahmet-cagatay.pdf" class="nav-cv" download>CV &#8595;</a></li>
+        <li><button class="theme-toggle" aria-label="Toggle theme"></button></li>
+      </ul>
+    </div>
+  </nav>
 
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content fade-in">
+        <h1>I find how teams work, then make it faster.</h1>
+        <p class="hero-hook">Operations & Automation Specialist with 5+ years in B2C SaaS. Scaled ad ops 90x. Now building with AI.</p>
+        <p class="hero-sub">Ankara, Turkey &middot; Remote &middot; Open to work</p>
+        <div class="hero-ctas">
+          <a href="#work" class="btn-primary">View My Work &#8595;</a>
+          <a href="assets/cv-ahmet-cagatay.pdf" class="btn-secondary" download>Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="fade-in">
+        <p class="section-title">About</p>
+        <p class="about-text">
+          Operations-minded builder with 5+ years of experience in B2C SaaS environments, improving how teams work through workflow automation, process improvement, and cross-functional collaboration. Experienced across marketing automation, internal operations, people processes, and AI-powered development. Naturally drawn to finding friction and making it disappear.
+        </p>
+        <p class="about-text">
+          At startups, you don't need five specialists. You need one person who sees the full picture &mdash; from user acquisition to product experience to growth loops. That's what I do.
+        </p>
+        <div class="skills">
+          <span class="skill-pill">Make.com</span>
+          <span class="skill-pill">Zapier</span>
+          <span class="skill-pill">Airtable</span>
+          <span class="skill-pill">Meta Ads</span>
+          <span class="skill-pill">Google Ads</span>
+          <span class="skill-pill">Claude Code</span>
+          <span class="skill-pill">n8n</span>
+          <span class="skill-pill">ClickUp</span>
+          <span class="skill-pill">Notion</span>
+          <span class="skill-pill">Slack</span>
+          <span class="skill-pill">GA4</span>
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">API Integrations</span>
+          <span class="skill-pill">Retool</span>
+        </div>
+        <p class="about-location">Ankara, Turkey &middot; Remote &middot; Open to work</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="fade-in">
+        <p class="section-title">Experience</p>
+
+        <div class="timeline">
+          <!-- KitUP -->
+          <div class="timeline-item">
+            <div class="timeline-role">KitUP &mdash; Operations & Marketing Automation Specialist</div>
+            <div class="timeline-meta">Mar 2023 &ndash; Sep 2025 &middot; B2C SaaS &middot; 1M+ users &middot; Remote (London)</div>
+            <div class="timeline-desc">
+              <ul>
+                <li>Redesigned the ad production pipeline (Make.com + Airtable + Meta Ads) &mdash; team went from 1 creative/day to ~90</li>
+                <li>Reduced ad production costs by ~60% through workflow automation</li>
+                <li>Set up project workflows in ClickUp, structured Slack channels, built Airtable dashboards</li>
+                <li>Reviewed and optimized the company's SaaS tool stack &mdash; vendor evaluation, cost optimization</li>
+                <li>Supported HR with onboarding &mdash; tool access, workflow training, documentation</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- UPley -->
+          <div class="timeline-item">
+            <div class="timeline-role">UPley &mdash; AI Powered Marketing & Product Developer</div>
+            <div class="timeline-meta">Sep 2025 &ndash; Present &middot; B2C Gaming Startup &middot; Freelance</div>
+            <div class="timeline-desc">
+              <ul>
+                <li>Designed go-to-market strategy, sales funnel, and product positioning from scratch</li>
+                <li>Built and shipped mobile app (PWA) to production using AI-powered development (Claude Code)</li>
+                <li>Managed full product lifecycle as a single operator &mdash; from strategy to live deployment</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Birlikte Ihracat -->
+          <div class="timeline-item">
+            <div class="timeline-role">Birlikte Ihracat &mdash; Community & Automation Specialist</div>
+            <div class="timeline-meta">Dec 2020 &ndash; Mar 2023 &middot; Business Community &middot; Ankara</div>
+            <div class="timeline-desc">
+              <ul>
+                <li>Grew and managed a business community connecting exporters</li>
+                <li>Built engagement systems using Discord and automation tools</li>
+                <li>Designed onboarding flows and internal communication workflows</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Upwork -->
+          <div class="timeline-item">
+            <div class="timeline-role">Upwork &mdash; Freelance Automation & Community Specialist</div>
+            <div class="timeline-meta">Oct 2020 &ndash; Mar 2023</div>
+            <div class="timeline-desc">
+              <ul>
+                <li>Provided community strategy, AI implementation, and no-code automation to B2C/B2B clients</li>
+                <li>Built automated workflows using Make.com, Zapier, and Discord integrations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fade-in">
+        <p class="section-title">Projects</p>
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <div class="project-card-header">
+              <h3>KitUP Ad Ops Automation</h3>
+              <span class="badge">Shipped</span>
+            </div>
+            <p>Scaled ad production from 1/day to 90 with 60% cost reduction. Connected Make.com, Airtable, and Meta Ads into one automated pipeline.</p>
+            <div class="project-tags">
+              <span class="project-tag">Make.com</span>
+              <span class="project-tag">Airtable</span>
+              <span class="project-tag">Meta Ads</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card-header">
+              <h3>UPley Mobile App</h3>
+              <span class="badge">Shipped</span>
+            </div>
+            <p>AI-powered PWA for a gaming startup. Built with Claude Code, managed full product lifecycle from concept to live deployment.</p>
+            <div class="project-tags">
+              <span class="project-tag">Claude Code</span>
+              <span class="project-tag">PWA</span>
+              <span class="project-tag">AI Dev</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card-header">
+              <h3>Voice-to-Text System</h3>
+              <span class="badge">Open Source</span>
+            </div>
+            <p>Local speech-to-text on macOS. One key to speak, auto-transcribe, paste, and send. 99 languages, fully offline, $0 cost.</p>
+            <div class="project-tags">
+              <span class="project-tag">Whisper.cpp</span>
+              <span class="project-tag">Hammerspoon</span>
+              <span class="project-tag">macOS</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card-header">
+              <h3>AI Marketing Tool</h3>
+              <span class="badge">In Design</span>
+            </div>
+            <p>AI agents that don't just report &mdash; they act. Multi-platform ad optimization, automated creative briefs, budget allocation.</p>
+            <div class="project-tags">
+              <span class="project-tag">AI Agents</span>
+              <span class="project-tag">Concept</span>
+              <span class="project-tag">B2B SaaS</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Writing -->
+  <section id="writing" class="section">
+    <div class="container">
+      <div class="fade-in">
+        <p class="section-title">Writing</p>
+        <div class="writing-grid">
+
+          <a href="https://www.linkedin.com/in/ahmet-cagatay/recent-activity/all/" class="writing-card" target="_blank" rel="noopener">
+            <h3>I Talk to Claude Code Now. No Typing.</h3>
+            <p>Built a local voice-to-text system with one prompt. Whisper.cpp + Hammerspoon, 99 languages, $0 cost. Here's the exact prompt to copy.</p>
+            <span class="writing-link">Read on LinkedIn &#8599;</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/ahmet-cagatay/recent-activity/all/" class="writing-card" target="_blank" rel="noopener">
+            <h3>CEOs Don't Need to Understand AI Agents</h3>
+            <p>They just need someone on their team who does. Thoughts on why AI adoption is a people problem, not a technology one.</p>
+            <span class="writing-link">Read on LinkedIn &#8599;</span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="contact-section fade-in">
+        <h2>Let's Talk</h2>
+        <p>Or just say hi &mdash; I read everything.</p>
+        <div class="contact-links">
+          <a href="mailto:ahmetsalihcagatay@gmail.com" class="btn-primary">Email Me</a>
+          <a href="https://www.linkedin.com/in/ahmet-cagatay" class="btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="assets/cv-ahmet-cagatay.pdf" class="btn-secondary" download>Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      Ahmet Cagatay &middot; 2026 &middot; Built with HTML
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
