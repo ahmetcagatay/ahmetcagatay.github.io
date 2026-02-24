@@ -3,248 +3,487 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ahmet Cagatay — Operations & Automation</title>
-  <meta name="description" content="Operations-minded builder. 5+ years in B2C SaaS. Marketing automation, process improvement, AI-powered development.">
+  <title>Ahmet Cagatay — Evolution of Automation</title>
+  <meta name="description" content="The evolution of an automation specialist. From cave walls to AI dashboards — scroll through the ages.">
   <meta name="author" content="Ahmet Cagatay">
-  <meta property="og:title" content="Ahmet Cagatay — Operations & Automation">
-  <meta property="og:description" content="I find how teams work, then make it faster.">
+  <meta property="og:title" content="Ahmet Cagatay — Evolution of Automation">
+  <meta property="og:description" content="I find how teams work, then make it faster. A journey through the ages of automation.">
   <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Press+Start+2P&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Nav -->
-  <nav class="nav">
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <nav class="nav" id="mainNav" data-era="ancient">
     <div class="nav-inner">
-      <a href="#" class="nav-brand">Ahmet Cagatay</a>
+      <a href="#" class="nav-brand">AC</a>
       <button class="nav-hamburger" aria-label="Menu" aria-expanded="false">
         <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
       </button>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#writing">Writing</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#era-ancient">Stone Age</a></li>
+        <li><a href="#era-medieval">Medieval</a></li>
+        <li><a href="#era-industrial">Industry</a></li>
+        <li><a href="#era-digital">Digital</a></li>
+        <li><a href="#era-modern">Singularity</a></li>
         <li><a href="assets/cv-ahmet-cagatay.pdf" class="nav-cv" download>CV &#8595;</a></li>
-        <li><button class="theme-toggle" aria-label="Toggle theme"></button></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container">
-      <div class="hero-content fade-in">
-        <h1>I find how teams work, then make it faster.</h1>
-        <p class="hero-hook">Operations & Automation Specialist with 5+ years in B2C SaaS. Scaled ad ops 90x. Now building with AI.</p>
-        <p class="hero-sub">Ankara, Turkey &middot; Remote &middot; Open to work</p>
-        <div class="hero-ctas">
-          <a href="#work" class="btn-primary">View My Work &#8595;</a>
-          <a href="assets/cv-ahmet-cagatay.pdf" class="btn-secondary" download>Download CV</a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <div class="era-indicator" id="eraIndicator">
+    <a href="#era-ancient" class="era-dot active" data-era="ancient" title="Stone Age"><span class="era-dot-label">Stone Age</span></a>
+    <a href="#era-medieval" class="era-dot" data-era="medieval" title="Medieval"><span class="era-dot-label">Medieval</span></a>
+    <a href="#era-industrial" class="era-dot" data-era="industrial" title="Industry"><span class="era-dot-label">Industry</span></a>
+    <a href="#era-digital" class="era-dot" data-era="digital" title="Digital Revolution"><span class="era-dot-label">Digital</span></a>
+    <a href="#era-modern" class="era-dot" data-era="modern" title="Singularity of AI"><span class="era-dot-label">Singularity</span></a>
+  </div>
 
-  <!-- About -->
-  <section id="about" class="section">
-    <div class="container">
+
+  <!-- ==================== ANCIENT (HERO) ==================== -->
+  <section id="era-ancient" class="era era-ancient" data-era="ancient">
+    <div class="era-bg" aria-hidden="true">
+      <svg viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" class="bg-svg">
+        <circle cx="180" cy="220" r="22" stroke="#c45e2b" stroke-width="3" fill="none"/>
+        <path d="M180,242 Q183,280 178,320" stroke="#c45e2b" stroke-width="3" fill="none"/>
+        <path d="M178,275 Q155,265 142,282" stroke="#c45e2b" stroke-width="3" fill="none"/>
+        <path d="M180,275 Q205,260 218,272" stroke="#c45e2b" stroke-width="3" fill="none"/>
+        <path d="M178,320 Q168,350 155,375" stroke="#c45e2b" stroke-width="3" fill="none"/>
+        <path d="M180,320 Q192,350 205,375" stroke="#c45e2b" stroke-width="3" fill="none"/>
+        <path d="M218,272 L240,250 L246,260" stroke="#c45e2b" stroke-width="2.5" fill="none"/>
+        <circle cx="520" cy="580" r="18" stroke="#c45e2b" stroke-width="2.5" fill="none"/>
+        <path d="M520,598 Q518,625 522,650" stroke="#c45e2b" stroke-width="2.5" fill="none"/>
+        <path d="M520,615 Q495,600 485,610" stroke="#c45e2b" stroke-width="2.5" fill="none"/>
+        <path d="M522,615 Q548,595 558,608" stroke="#c45e2b" stroke-width="2.5" fill="none"/>
+        <path d="M700,520 L670,520 L678,495 Q672,470 690,445 Q696,462 694,475 Q708,458 700,435 Q720,465 712,498 Z" stroke="#c45e2b" stroke-width="3" fill="none"/>
+        <path d="M675,522 L718,518" stroke="#c45e2b" stroke-width="3"/>
+        <circle cx="1050" cy="350" r="55" stroke="#c45e2b" stroke-width="3" fill="none"/>
+        <circle cx="1050" cy="350" r="8" fill="#c45e2b" opacity="0.5"/>
+        <line x1="1050" y1="295" x2="1050" y2="405" stroke="#c45e2b" stroke-width="2.5"/>
+        <line x1="995" y1="350" x2="1105" y2="350" stroke="#c45e2b" stroke-width="2.5"/>
+        <line x1="1011" y1="311" x2="1089" y2="389" stroke="#c45e2b" stroke-width="2"/>
+        <line x1="1089" y1="311" x2="1011" y2="389" stroke="#c45e2b" stroke-width="2"/>
+        <path d="M380,720 Q360,708 355,725 Q352,742 362,752 Q370,755 374,745 L382,750 Q388,755 392,742 L402,748 Q414,730 398,718 Q393,706 383,712 Z" stroke="#c45e2b" stroke-width="2.5" fill="none"/>
+        <circle cx="90" cy="580" r="14" fill="#c45e2b" opacity="0.12"/>
+        <circle cx="310" cy="130" r="11" fill="#c45e2b" opacity="0.1"/>
+        <circle cx="880" cy="180" r="13" fill="#c45e2b" opacity="0.08"/>
+        <circle cx="1250" cy="480" r="12" fill="#c45e2b" opacity="0.1"/>
+        <circle cx="750" cy="120" r="10" fill="#c45e2b" opacity="0.07"/>
+        <circle cx="200" cy="750" r="11" fill="#c45e2b" opacity="0.09"/>
+        <path d="M800,780 L810,765 L820,780 L830,765 L840,780 L850,765 L860,780" stroke="#c45e2b" stroke-width="2" fill="none" opacity="0.4"/>
+        <circle cx="450" cy="180" r="3" fill="#c45e2b" opacity="0.3"/>
+        <circle cx="620" cy="250" r="2.5" fill="#c45e2b" opacity="0.25"/>
+        <circle cx="840" cy="420" r="3" fill="#c45e2b" opacity="0.2"/>
+      </svg>
+    </div>
+    <div class="era-overlay ancient-overlay"></div>
+
+    <div class="container era-content ancient-hero-layout">
       <div class="fade-in">
-        <p class="section-title">About</p>
-        <p class="about-text">
-          Operations-minded builder with 5+ years of experience in B2C SaaS environments, improving how teams work through workflow automation, process improvement, and cross-functional collaboration. Experienced across marketing automation, internal operations, people processes, and AI-powered development. Naturally drawn to finding friction and making it disappear.
-        </p>
-        <p class="about-text">
-          At startups, you don't need five specialists. You need one person who sees the full picture &mdash; from user acquisition to product experience to growth loops. That's what I do.
-        </p>
-        <div class="skills">
-          <span class="skill-pill">Make.com</span>
-          <span class="skill-pill">Zapier</span>
-          <span class="skill-pill">Airtable</span>
-          <span class="skill-pill">Meta Ads</span>
-          <span class="skill-pill">Google Ads</span>
-          <span class="skill-pill">Claude Code</span>
-          <span class="skill-pill">n8n</span>
-          <span class="skill-pill">ClickUp</span>
-          <span class="skill-pill">Notion</span>
-          <span class="skill-pill">Slack</span>
-          <span class="skill-pill">GA4</span>
-          <span class="skill-pill">Python</span>
-          <span class="skill-pill">API Integrations</span>
-          <span class="skill-pill">Retool</span>
-        </div>
-        <p class="about-location">Ankara, Turkey &middot; Remote &middot; Open to work</p>
+        <p class="era-label">The Stone Age</p>
+        <h1 class="ancient-hero-title">Evolution of<br><span class="ancient-accent">Ahmet Cagatay</span></h1>
+        <p class="ancient-hero-hook">Operations & Automation Specialist. Scroll through the ages to see the journey from creation to AI.</p>
+        <p class="ancient-hero-sub">Ankara, Turkey &middot; Remote &middot; Open to work</p>
+      </div>
+      <div class="content-block ancient-block fade-in">
+        <h3>The Origin &mdash; Media Production & 3D</h3>
+        <p>Before automation, there was raw creation. 3D animation and media production &mdash; building visual worlds from scratch. This design sensibility still shapes every system built today.</p>
+      </div>
+      <div class="ancient-cta fade-in">
+        <a href="#era-medieval" class="btn-ancient-primary">Begin the Journey &#8595;</a>
+        <a href="assets/cv-ahmet-cagatay.pdf" class="btn-ancient-secondary" download>Download CV</a>
       </div>
     </div>
   </section>
 
-  <!-- Work -->
-  <section id="work" class="section" style="background: var(--bg-secondary);">
-    <div class="container">
+
+  <!-- ==================== MEDIEVAL ==================== -->
+  <section id="era-medieval" class="era era-medieval" data-era="medieval">
+    <div class="era-bg medieval-parallax" aria-hidden="true">
+      <div class="parallax-layer" data-speed="0.08">
+        <svg viewBox="0 0 1440 800" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg" class="bg-svg">
+          <rect width="1440" height="800" fill="#12261c"/>
+          <polygon points="0,800 0,500 120,420 240,480 360,380 480,450 600,340 720,420 840,370 960,460 1080,390 1200,430 1320,380 1440,470 1440,800" fill="#1a3328"/>
+        </svg>
+      </div>
+      <div class="parallax-layer" data-speed="0.2">
+        <svg viewBox="0 0 1440 800" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg" class="bg-svg">
+          <polygon points="80,800 80,580 60,580 100,510 80,510 110,440 90,440 110,390 130,440 110,440 140,510 120,510 140,580 140,800" fill="#213d2e"/>
+          <polygon points="300,800 300,600 280,600 320,540 300,540 330,480 310,480 330,430 350,480 330,480 360,540 340,540 360,600 360,800" fill="#213d2e"/>
+          <polygon points="520,800 520,570 500,570 540,500 520,500 550,430 530,430 550,380 570,430 550,430 580,500 560,500 580,570 580,800" fill="#213d2e"/>
+          <polygon points="780,800 780,560 760,560 800,490 780,490 810,420 790,420 810,370 830,420 810,420 840,490 820,490 840,560 840,800" fill="#213d2e"/>
+          <polygon points="1000,800 1000,590 980,590 1020,520 1000,520 1030,450 1010,450 1030,400 1050,450 1030,450 1060,520 1040,520 1060,590 1060,800" fill="#213d2e"/>
+          <polygon points="1220,800 1220,570 1200,570 1240,500 1220,500 1250,430 1230,430 1250,380 1270,430 1250,430 1280,500 1260,500 1280,570 1280,800" fill="#213d2e"/>
+          <rect x="0" y="720" width="1440" height="80" fill="#213d2e"/>
+        </svg>
+      </div>
+      <div class="parallax-layer" data-speed="0.35">
+        <svg viewBox="0 0 1440 800" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg" class="bg-svg" shape-rendering="crispEdges">
+          <polygon points="40,800 40,540 20,540 60,470 40,470 70,400 50,400 70,350 90,400 70,400 100,470 80,470 100,540 100,800" fill="#2a4a38"/>
+          <polygon points="250,800 250,570 230,570 270,510 250,510 280,450 260,450 280,400 300,450 280,450 310,510 290,510 310,570 310,800" fill="#2a4a38"/>
+          <polygon points="1150,800 1150,550 1130,550 1170,480 1150,480 1180,410 1160,410 1180,360 1200,410 1180,410 1210,480 1190,480 1210,550 1210,800" fill="#2a4a38"/>
+          <polygon points="1350,800 1350,580 1330,580 1370,520 1350,520 1380,460 1360,460 1380,420 1400,460 1380,460 1410,520 1390,520 1410,580 1410,800" fill="#2a4a38"/>
+          <rect x="620" y="560" width="40" height="90" fill="#692F11"/>
+          <rect x="614" y="552" width="52" height="12" fill="#8B4513"/>
+          <polygon points="608,552 640,510 672,552" fill="#8B4513"/>
+          <g class="windmill-blades" style="transform-origin:640px 530px">
+            <rect x="635" y="475" width="10" height="55" fill="#E0C477"/>
+            <rect x="635" y="530" width="10" height="55" fill="#E0C477"/>
+            <rect x="585" y="525" width="55" height="10" fill="#E0C477"/>
+            <rect x="640" y="525" width="55" height="10" fill="#E0C477"/>
+          </g>
+          <rect x="880" y="620" width="60" height="40" fill="#692F11"/>
+          <polygon points="874,620 910,588 946,620" fill="#8B4513"/>
+          <rect x="898" y="636" width="14" height="24" fill="#E0C477" opacity="0.6"/>
+          <rect x="420" y="640" width="40" height="28" fill="#692F11"/>
+          <g class="water-wheel" style="transform-origin:465px 652px">
+            <circle cx="465" cy="652" r="18" fill="none" stroke="#8B4513" stroke-width="3"/>
+            <line x1="465" y1="634" x2="465" y2="670" stroke="#8B4513" stroke-width="2"/>
+            <line x1="447" y1="652" x2="483" y2="652" stroke="#8B4513" stroke-width="2"/>
+          </g>
+          <rect x="0" y="660" width="1440" height="140" fill="#2a4a38"/>
+          <rect x="0" y="655" width="1440" height="8" fill="#345644"/>
+          <rect x="750" y="642" width="10" height="10" fill="#E0C477"/>
+          <rect x="750" y="652" width="10" height="12" fill="#345644"/>
+        </svg>
+      </div>
+    </div>
+    <div class="era-overlay medieval-overlay"></div>
+
+    <div class="container era-content medieval-layout">
       <div class="fade-in">
-        <p class="section-title">Experience</p>
+        <p class="era-label pixel-label">Medieval</p>
+        <h2 class="medieval-title">The Quest Log</h2>
+      </div>
 
-        <div class="timeline">
-          <!-- KitUP -->
-          <div class="timeline-item">
-            <div class="timeline-role">KitUP &mdash; Operations & Marketing Automation Specialist</div>
-            <div class="timeline-meta">Mar 2023 &ndash; Sep 2025 &middot; B2C SaaS &middot; 1M+ users &middot; Remote (London)</div>
-            <div class="timeline-desc">
-              <ul>
-                <li>Redesigned the ad production pipeline (Make.com + Airtable + Meta Ads) &mdash; team went from 1 creative/day to ~90</li>
-                <li>Reduced ad production costs by ~60% through workflow automation</li>
-                <li>Set up project workflows in ClickUp, structured Slack channels, built Airtable dashboards</li>
-                <li>Reviewed and optimized the company's SaaS tool stack &mdash; vendor evaluation, cost optimization</li>
-                <li>Supported HR with onboarding &mdash; tool access, workflow training, documentation</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- UPley -->
-          <div class="timeline-item">
-            <div class="timeline-role">UPley &mdash; AI Powered Marketing & Product Developer</div>
-            <div class="timeline-meta">Sep 2025 &ndash; Present &middot; B2C Gaming Startup &middot; Freelance</div>
-            <div class="timeline-desc">
-              <ul>
-                <li>Designed go-to-market strategy, sales funnel, and product positioning from scratch</li>
-                <li>Built and shipped mobile app (PWA) to production using AI-powered development (Claude Code)</li>
-                <li>Managed full product lifecycle as a single operator &mdash; from strategy to live deployment</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Birlikte Ihracat -->
-          <div class="timeline-item">
-            <div class="timeline-role">Birlikte Ihracat &mdash; Community & Automation Specialist</div>
-            <div class="timeline-meta">Dec 2020 &ndash; Mar 2023 &middot; Business Community &middot; Ankara</div>
-            <div class="timeline-desc">
-              <ul>
-                <li>Grew and managed a business community connecting exporters</li>
-                <li>Built engagement systems using Discord and automation tools</li>
-                <li>Designed onboarding flows and internal communication workflows</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Upwork -->
-          <div class="timeline-item">
-            <div class="timeline-role">Upwork &mdash; Freelance Automation & Community Specialist</div>
-            <div class="timeline-meta">Oct 2020 &ndash; Mar 2023</div>
-            <div class="timeline-desc">
-              <ul>
-                <li>Provided community strategy, AI implementation, and no-code automation to B2C/B2B clients</li>
-                <li>Built automated workflows using Make.com, Zapier, and Discord integrations</li>
-              </ul>
-            </div>
-          </div>
+      <!-- Metrics: growing -->
+      <div class="era-stats medieval-stats fade-in">
+        <div class="era-stat">
+          <span class="era-stat-num">10+</span>
+          <span class="era-stat-lbl">clients_served</span>
+        </div>
+        <div class="era-stat">
+          <span class="era-stat-num">3</span>
+          <span class="era-stat-lbl">kingdoms_reached</span>
         </div>
       </div>
 
+      <div class="content-block medieval-block fade-in">
+        <h3 class="medieval-card-title">Freelance Adventures</h3>
+        <p class="block-meta">Upwork &middot; Oct 2020 &ndash; Mar 2023</p>
+        <div class="quest-list">
+          <div class="quest"><span class="quest-icon">&#9876;</span><div><strong>Community Strategy & AI</strong><p>Growth consulting and AI implementation for B2C/B2B clients.</p></div></div>
+          <div class="quest"><span class="quest-icon">&#9876;</span><div><strong>No-Code Automation</strong><p>Workflows with Make.com, Zapier, and Discord integrations.</p></div></div>
+          <div class="quest"><span class="quest-icon">&#9876;</span><div><strong>Client Operations</strong><p>Internal tools, communication, and dashboards for remote teams.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== INDUSTRIAL ==================== -->
+  <section id="era-industrial" class="era era-industrial" data-era="industrial">
+    <div class="era-bg" aria-hidden="true">
+      <svg viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" class="bg-svg">
+        <defs>
+          <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <line x1="0" y1="0" x2="0" y2="6" stroke="#8b7355" stroke-width="0.4" opacity="0.4"/>
+          </pattern>
+        </defs>
+        <g class="gear gear-large">
+          <circle cx="250" cy="400" r="160" fill="url(#hatch)" stroke="#8b7355" stroke-width="3"/>
+          <circle cx="250" cy="400" r="120" fill="none" stroke="#8b7355" stroke-width="2"/>
+          <circle cx="250" cy="400" r="28" fill="#f5e6c8" stroke="#8b7355" stroke-width="3"/>
+          <line x1="250" y1="240" x2="250" y2="560" stroke="#8b7355" stroke-width="2.5"/>
+          <line x1="90" y1="400" x2="410" y2="400" stroke="#8b7355" stroke-width="2.5"/>
+          <rect x="237" y="228" width="26" height="18" rx="2" fill="#8b7355" transform="rotate(0 250 400)"/>
+          <rect x="237" y="228" width="26" height="18" rx="2" fill="#8b7355" transform="rotate(30 250 400)"/>
+          <rect x="237" y="228" width="26" height="18" rx="2" fill="#8b7355" transform="rotate(60 250 400)"/>
+          <rect x="237" y="228" width="26" height="18" rx="2" fill="#8b7355" transform="rotate(90 250 400)"/>
+          <rect x="237" y="228" width="26" height="18" rx="2" fill="#8b7355" transform="rotate(120 250 400)"/>
+          <rect x="237" y="228" width="26" height="18" rx="2" fill="#8b7355" transform="rotate(150 250 400)"/>
+          <rect x="237" y="228" width="26" height="18" rx="2" fill="#8b7355" transform="rotate(180 250 400)"/>
+          <rect x="237" y="228" width="26" height="18" rx="2" fill="#8b7355" transform="rotate(210 250 400)"/>
+          <rect x="237" y="228" width="26" height="18" rx="2" fill="#8b7355" transform="rotate(240 250 400)"/>
+          <rect x="237" y="228" width="26" height="18" rx="2" fill="#8b7355" transform="rotate(270 250 400)"/>
+          <rect x="237" y="228" width="26" height="18" rx="2" fill="#8b7355" transform="rotate(300 250 400)"/>
+          <rect x="237" y="228" width="26" height="18" rx="2" fill="#8b7355" transform="rotate(330 250 400)"/>
+        </g>
+        <g class="gear gear-medium">
+          <circle cx="1100" cy="280" r="110" fill="url(#hatch)" stroke="#8b7355" stroke-width="3"/>
+          <circle cx="1100" cy="280" r="80" fill="none" stroke="#8b7355" stroke-width="2"/>
+          <circle cx="1100" cy="280" r="20" fill="#f5e6c8" stroke="#8b7355" stroke-width="3"/>
+          <line x1="1100" y1="170" x2="1100" y2="390" stroke="#8b7355" stroke-width="2"/>
+          <line x1="990" y1="280" x2="1210" y2="280" stroke="#8b7355" stroke-width="2"/>
+          <rect x="1092" y="162" width="16" height="14" rx="2" fill="#8b7355" transform="rotate(0 1100 280)"/>
+          <rect x="1092" y="162" width="16" height="14" rx="2" fill="#8b7355" transform="rotate(40 1100 280)"/>
+          <rect x="1092" y="162" width="16" height="14" rx="2" fill="#8b7355" transform="rotate(80 1100 280)"/>
+          <rect x="1092" y="162" width="16" height="14" rx="2" fill="#8b7355" transform="rotate(120 1100 280)"/>
+          <rect x="1092" y="162" width="16" height="14" rx="2" fill="#8b7355" transform="rotate(160 1100 280)"/>
+          <rect x="1092" y="162" width="16" height="14" rx="2" fill="#8b7355" transform="rotate(200 1100 280)"/>
+          <rect x="1092" y="162" width="16" height="14" rx="2" fill="#8b7355" transform="rotate(240 1100 280)"/>
+          <rect x="1092" y="162" width="16" height="14" rx="2" fill="#8b7355" transform="rotate(280 1100 280)"/>
+          <rect x="1092" y="162" width="16" height="14" rx="2" fill="#8b7355" transform="rotate(320 1100 280)"/>
+        </g>
+        <g class="gear gear-small">
+          <circle cx="1150" cy="680" r="75" fill="url(#hatch)" stroke="#8b7355" stroke-width="3"/>
+          <circle cx="1150" cy="680" r="52" fill="none" stroke="#8b7355" stroke-width="2"/>
+          <circle cx="1150" cy="680" r="14" fill="#f5e6c8" stroke="#8b7355" stroke-width="3"/>
+          <line x1="1150" y1="605" x2="1150" y2="755" stroke="#8b7355" stroke-width="2"/>
+          <line x1="1075" y1="680" x2="1225" y2="680" stroke="#8b7355" stroke-width="2"/>
+          <rect x="1143" y="599" width="14" height="12" rx="2" fill="#8b7355" transform="rotate(0 1150 680)"/>
+          <rect x="1143" y="599" width="14" height="12" rx="2" fill="#8b7355" transform="rotate(45 1150 680)"/>
+          <rect x="1143" y="599" width="14" height="12" rx="2" fill="#8b7355" transform="rotate(90 1150 680)"/>
+          <rect x="1143" y="599" width="14" height="12" rx="2" fill="#8b7355" transform="rotate(135 1150 680)"/>
+          <rect x="1143" y="599" width="14" height="12" rx="2" fill="#8b7355" transform="rotate(180 1150 680)"/>
+          <rect x="1143" y="599" width="14" height="12" rx="2" fill="#8b7355" transform="rotate(225 1150 680)"/>
+          <rect x="1143" y="599" width="14" height="12" rx="2" fill="#8b7355" transform="rotate(270 1150 680)"/>
+          <rect x="1143" y="599" width="14" height="12" rx="2" fill="#8b7355" transform="rotate(315 1150 680)"/>
+        </g>
+      </svg>
+    </div>
+    <div class="era-overlay industrial-overlay"></div>
+    <div class="industrial-steam" aria-hidden="true">
+      <span class="steam-particle" style="--d:0"></span><span class="steam-particle" style="--d:1"></span>
+      <span class="steam-particle" style="--d:2"></span><span class="steam-particle" style="--d:3"></span>
+      <span class="steam-particle" style="--d:4"></span><span class="steam-particle" style="--d:5"></span>
+    </div>
+
+    <div class="container era-content industrial-layout">
       <div class="fade-in">
-        <p class="section-title">Projects</p>
-        <div class="projects-grid">
+        <p class="era-label industrial-label">Industry</p>
+        <h2 class="industrial-title">The Workshop</h2>
+      </div>
 
-          <div class="project-card">
-            <div class="project-card-header">
-              <h3>KitUP Ad Ops Automation</h3>
-              <span class="badge">Shipped</span>
-            </div>
-            <p>Scaled ad production from 1/day to 90 with 60% cost reduction. Connected Make.com, Airtable, and Meta Ads into one automated pipeline.</p>
-            <div class="project-tags">
-              <span class="project-tag">Make.com</span>
-              <span class="project-tag">Airtable</span>
-              <span class="project-tag">Meta Ads</span>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-card-header">
-              <h3>UPley Mobile App</h3>
-              <span class="badge">Shipped</span>
-            </div>
-            <p>AI-powered PWA for a gaming startup. Built with Claude Code, managed full product lifecycle from concept to live deployment.</p>
-            <div class="project-tags">
-              <span class="project-tag">Claude Code</span>
-              <span class="project-tag">PWA</span>
-              <span class="project-tag">AI Dev</span>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-card-header">
-              <h3>Voice-to-Text System</h3>
-              <span class="badge">Open Source</span>
-            </div>
-            <p>Local speech-to-text on macOS. One key to speak, auto-transcribe, paste, and send. 99 languages, fully offline, $0 cost.</p>
-            <div class="project-tags">
-              <span class="project-tag">Whisper.cpp</span>
-              <span class="project-tag">Hammerspoon</span>
-              <span class="project-tag">macOS</span>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-card-header">
-              <h3>AI Marketing Tool</h3>
-              <span class="badge">In Design</span>
-            </div>
-            <p>AI agents that don't just report &mdash; they act. Multi-platform ad optimization, automated creative briefs, budget allocation.</p>
-            <div class="project-tags">
-              <span class="project-tag">AI Agents</span>
-              <span class="project-tag">Concept</span>
-              <span class="project-tag">B2B SaaS</span>
-            </div>
-          </div>
-
+      <div class="era-stats industrial-stats fade-in">
+        <div class="era-stat">
+          <span class="era-stat-num">200+</span>
+          <span class="era-stat-lbl">Community Members</span>
         </div>
+        <div class="era-stat">
+          <span class="era-stat-num">50+</span>
+          <span class="era-stat-lbl">Businesses Connected</span>
+        </div>
+      </div>
+
+      <div class="content-block industrial-block fade-in">
+        <h3>Birlikte Ihracat</h3>
+        <p class="block-meta">Community & Automation Specialist &middot; Dec 2020 &ndash; Mar 2023 &middot; Ankara</p>
+        <ul class="industrial-list">
+          <li>Grew and managed a business community connecting Turkish exporters</li>
+          <li>Built engagement systems using Discord and automation tools</li>
+          <li>Designed onboarding flows and internal communication workflows</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- Writing -->
-  <section id="writing" class="section">
-    <div class="container">
+
+  <!-- ==================== DIGITAL ==================== -->
+  <section id="era-digital" class="era era-digital" data-era="digital">
+    <div class="era-bg" aria-hidden="true">
+      <div class="digital-grid-bg"></div>
+      <div class="digital-scanline"></div>
+      <div class="digital-matrix-rain">
+        <span style="--i:0"></span><span style="--i:1"></span><span style="--i:2"></span>
+        <span style="--i:3"></span><span style="--i:4"></span><span style="--i:5"></span>
+        <span style="--i:6"></span><span style="--i:7"></span><span style="--i:8"></span>
+        <span style="--i:9"></span><span style="--i:10"></span><span style="--i:11"></span>
+        <span style="--i:12"></span><span style="--i:13"></span><span style="--i:14"></span>
+        <span style="--i:15"></span><span style="--i:16"></span><span style="--i:17"></span>
+        <span style="--i:18"></span><span style="--i:19"></span>
+      </div>
+      <svg viewBox="0 0 1400 500" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" class="digital-bg-workflow">
+        <rect x="100" y="150" width="280" height="200" rx="12" stroke="#00ff88" stroke-width="1" fill="none" opacity="0.05"/>
+        <text x="240" y="240" text-anchor="middle" fill="#00ff88" font-family="JetBrains Mono, monospace" font-size="24" opacity="0.05">Airtable</text>
+        <line x1="380" y1="250" x2="520" y2="250" stroke="#00ff88" stroke-width="1" stroke-dasharray="12 6" opacity="0.04" class="digital-flow-line"/>
+        <rect x="520" y="150" width="280" height="200" rx="12" stroke="#00ff88" stroke-width="1" fill="none" opacity="0.05"/>
+        <text x="660" y="240" text-anchor="middle" fill="#00ff88" font-family="JetBrains Mono, monospace" font-size="24" opacity="0.05">Make.com</text>
+        <line x1="800" y1="250" x2="940" y2="250" stroke="#00ff88" stroke-width="1" stroke-dasharray="12 6" opacity="0.04" class="digital-flow-line"/>
+        <rect x="940" y="150" width="280" height="200" rx="12" stroke="#00ff88" stroke-width="1" fill="none" opacity="0.05"/>
+        <text x="1080" y="240" text-anchor="middle" fill="#00ff88" font-family="JetBrains Mono, monospace" font-size="24" opacity="0.05">Meta Ads</text>
+      </svg>
+    </div>
+
+    <div class="container era-content digital-layout">
       <div class="fade-in">
-        <p class="section-title">Writing</p>
-        <div class="writing-grid">
+        <p class="era-label digital-label">Digital Revolution</p>
+        <div class="digital-terminal">
+          <div class="digital-terminal-bar">
+            <span class="digital-dot" style="background:#ff5f57"></span>
+            <span class="digital-dot" style="background:#ffbd2e"></span>
+            <span class="digital-dot" style="background:#28c840"></span>
+            <span class="digital-terminal-title">kitup_adops.exe</span>
+          </div>
+          <div class="digital-terminal-body">
+            <h2 class="digital-title">$ KitUP<span class="digital-cursor">_</span></h2>
+            <p class="digital-subtitle">// Operations & Marketing Automation</p>
+            <p class="digital-meta">// Mar 2023 &ndash; Sep 2025 &middot; 1M+ users &middot; London</p>
+          </div>
+        </div>
+      </div>
 
-          <a href="https://www.linkedin.com/in/ahmet-cagatay/recent-activity/all/" class="writing-card" target="_blank" rel="noopener">
-            <h3>I Talk to Claude Code Now. No Typing.</h3>
-            <p>Built a local voice-to-text system with one prompt. Whisper.cpp + Hammerspoon, 99 languages, $0 cost. Here's the exact prompt to copy.</p>
-            <span class="writing-link">Read on LinkedIn &#8599;</span>
-          </a>
+      <div class="era-stats digital-stats fade-in">
+        <div class="era-stat">
+          <span class="era-stat-num">90x</span>
+          <span class="era-stat-lbl">ad_production.scale</span>
+        </div>
+        <div class="era-stat">
+          <span class="era-stat-num">60%</span>
+          <span class="era-stat-lbl">cost.reduction</span>
+        </div>
+        <div class="era-stat">
+          <span class="era-stat-num">1M+</span>
+          <span class="era-stat-lbl">users.reached</span>
+        </div>
+      </div>
 
-          <a href="https://www.linkedin.com/in/ahmet-cagatay/recent-activity/all/" class="writing-card" target="_blank" rel="noopener">
-            <h3>CEOs Don't Need to Understand AI Agents</h3>
-            <p>They just need someone on their team who does. Thoughts on why AI adoption is a people problem, not a technology one.</p>
-            <span class="writing-link">Read on LinkedIn &#8599;</span>
-          </a>
+      <div class="content-block digital-block fade-in">
+        <p><span class="digital-prompt">&gt;</span> Redesigned ad pipeline: Make.com + Airtable + Meta Ads</p>
+        <p><span class="digital-prompt">&gt;</span> Team output: 1 creative/day &rarr; ~90/day</p>
+        <p><span class="digital-prompt">&gt;</span> Optimized SaaS stack, onboarding automation</p>
+        <p class="digital-project-line"><span class="digital-prompt">&gt;</span> voice_to_text.sh <span class="digital-badge-inline">OPEN_SOURCE</span> &mdash; Whisper.cpp + Hammerspoon, 99 langs, $0</p>
+      </div>
+    </div>
+  </section>
 
+
+  <!-- ==================== MODERN ==================== -->
+  <section id="era-modern" class="era era-modern" data-era="modern">
+    <div class="era-bg" aria-hidden="true">
+      <div class="modern-blob modern-blob-1"></div>
+      <div class="modern-blob modern-blob-2"></div>
+      <div class="modern-blob modern-blob-3"></div>
+      <svg viewBox="0 0 800 640" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMaxYMid meet" class="modern-bg-dashboard">
+        <rect x="20" y="20" width="760" height="600" rx="32" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.06"/>
+        <rect x="60" y="100" width="400" height="180" rx="20" fill="#40916c" fill-opacity="0.04"/>
+        <rect x="500" y="200" width="60" height="140" rx="8" fill="#52b788" fill-opacity="0.06"/>
+        <rect x="580" y="160" width="60" height="180" rx="8" fill="#40916c" fill-opacity="0.06"/>
+        <rect x="660" y="180" width="60" height="160" rx="8" fill="#2d6a4f" fill-opacity="0.06"/>
+        <rect x="60" y="380" width="600" height="8" rx="4" fill="#52b788" fill-opacity="0.025"/>
+        <rect x="60" y="440" width="200" height="60" rx="12" fill="white" fill-opacity="0.02"/>
+        <rect x="280" y="440" width="200" height="60" rx="12" fill="white" fill-opacity="0.02"/>
+        <rect x="500" y="440" width="200" height="60" rx="12" fill="white" fill-opacity="0.02"/>
+      </svg>
+    </div>
+
+    <div class="container era-content modern-layout">
+      <div class="fade-in">
+        <p class="era-label modern-label">Singularity of AI</p>
+        <h2 class="modern-title">The Present</h2>
+      </div>
+
+      <div class="era-stats modern-stats fade-in">
+        <div class="era-stat">
+          <span class="era-stat-num">5+</span>
+          <span class="era-stat-lbl">Years Experience</span>
+        </div>
+        <div class="era-stat">
+          <span class="era-stat-num">15+</span>
+          <span class="era-stat-lbl">Tools Mastered</span>
+        </div>
+        <div class="era-stat">
+          <span class="era-stat-num">3</span>
+          <span class="era-stat-lbl">Products Shipped</span>
+        </div>
+      </div>
+
+      <!-- About -->
+      <div class="content-block modern-block fade-in">
+        <h3 class="modern-block-title">About</h3>
+        <p>Operations-minded builder with 5+ years in B2C SaaS. Workflow automation, process improvement, cross-functional collaboration. Experienced across marketing ops, internal operations, and AI-powered development.</p>
+        <div class="modern-skills">
+          <span class="modern-skill">Make.com</span>
+          <span class="modern-skill">Zapier</span>
+          <span class="modern-skill">Airtable</span>
+          <span class="modern-skill">Meta Ads</span>
+          <span class="modern-skill">Google Ads</span>
+          <span class="modern-skill">Claude Code</span>
+          <span class="modern-skill">n8n</span>
+          <span class="modern-skill">ClickUp</span>
+          <span class="modern-skill">Notion</span>
+          <span class="modern-skill">GA4</span>
+          <span class="modern-skill">Python</span>
+          <span class="modern-skill">API Integrations</span>
+          <span class="modern-skill">Retool</span>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <div class="modern-projects fade-in">
+        <div class="content-block modern-block">
+          <div class="modern-card-header">
+            <h3>UPley &mdash; Sales Funnel & GTM</h3>
+            <span class="modern-badge">Shipped</span>
+          </div>
+          <p>Designed go-to-market strategy, sales funnel, and product positioning for a gaming startup from scratch.</p>
+          <div class="modern-tags">
+            <span class="modern-tag">Strategy</span>
+            <span class="modern-tag">Funnel</span>
+            <span class="modern-tag">GTM</span>
+          </div>
+          <a href="https://upley.net" class="modern-link" target="_blank" rel="noopener">upley.net &#8599;</a>
+        </div>
+        <div class="content-block modern-block">
+          <div class="modern-card-header">
+            <h3>OyunMu App</h3>
+            <span class="modern-badge">Shipped</span>
+          </div>
+          <p>AI-powered mobile app (PWA) for UPley. Built with Claude Code, managed full product lifecycle from concept to production.</p>
+          <div class="modern-tags">
+            <span class="modern-tag">Claude Code</span>
+            <span class="modern-tag">PWA</span>
+            <span class="modern-tag">AI Dev</span>
+          </div>
+          <a href="https://app.oyunmu.com" class="modern-link" target="_blank" rel="noopener">app.oyunmu.com &#8599;</a>
+        </div>
+        <div class="content-block modern-block">
+          <div class="modern-card-header">
+            <h3>AI Marketing Tool</h3>
+            <span class="modern-badge accent">In Design</span>
+          </div>
+          <p>AI agents that don't just report &mdash; they act. Multi-platform ad optimization, automated creative briefs, budget allocation.</p>
+          <div class="modern-tags">
+            <span class="modern-tag">AI Agents</span>
+            <span class="modern-tag">Concept</span>
+            <span class="modern-tag">B2B SaaS</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Writing -->
+      <div class="modern-writing fade-in">
+        <a href="https://www.linkedin.com/in/ahmet-cagatay/recent-activity/all/" class="content-block modern-block modern-writing-card" target="_blank" rel="noopener">
+          <h3>I Talk to Claude Code Now. No Typing.</h3>
+          <p>Voice-to-text with Whisper.cpp + Hammerspoon. 99 languages, $0 cost.</p>
+          <span class="modern-writing-link">Read on LinkedIn &#8599;</span>
+        </a>
+        <a href="https://www.linkedin.com/in/ahmet-cagatay/recent-activity/all/" class="content-block modern-block modern-writing-card" target="_blank" rel="noopener">
+          <h3>CEOs Don't Need to Understand AI Agents</h3>
+          <p>They just need someone on their team who does.</p>
+          <span class="modern-writing-link">Read on LinkedIn &#8599;</span>
+        </a>
+      </div>
+
+      <!-- Contact -->
+      <div class="modern-contact fade-in">
+        <h2 class="modern-contact-title">The Evolution Continues</h2>
+        <p class="modern-contact-sub">From cave walls to AI dashboards &mdash; 5 years of building, breaking, and automating. Ready for the next chapter?</p>
+        <div class="modern-contact-links">
+          <a href="mailto:ahmetsalihcagatay@gmail.com" class="btn-modern-primary">Get in Touch</a>
+          <a href="https://www.linkedin.com/in/ahmet-cagatay" class="btn-modern-secondary" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="assets/cv-ahmet-cagatay.pdf" class="btn-modern-secondary" download>Download CV</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="section" style="background: var(--bg-secondary);">
-    <div class="container">
-      <div class="contact-section fade-in">
-        <h2>Let's Talk</h2>
-        <p>Or just say hi &mdash; I read everything.</p>
-        <div class="contact-links">
-          <a href="mailto:ahmetsalihcagatay@gmail.com" class="btn-primary">Email Me</a>
-          <a href="https://www.linkedin.com/in/ahmet-cagatay" class="btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="assets/cv-ahmet-cagatay.pdf" class="btn-secondary" download>Download CV</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
   <footer class="footer">
-    <div class="container">
-      Ahmet Cagatay &middot; 2026 &middot; Built with HTML
-    </div>
+    <div class="container">Ahmet Cagatay &middot; 2026 &middot; Evolution of Automation</div>
   </footer>
 
   <script src="script.js"></script>
